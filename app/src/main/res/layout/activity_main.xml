@@ -1,0 +1,33 @@
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:orientation="vertical">
+
+    <TextView
+        android:layout_height="wrap_content"
+        android:layout_width="wrap_content"
+        android:text="Lista con ArrayAdapter"
+        />
+
+    <ListView
+        android:id="@+id/ListaOpciones"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        />
+
+    <TextView
+        android:id="@+id/LblMensaje"
+        android:textSize="150px"
+        android:layout_height="wrap_content"
+        android:layout_width="wrap_content"
+        android:text="Lista con PeliculaAdapter"
+        />
+
+    <ListView
+        android:id="@+id/ListaPeliculas"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        />
+
+</LinearLayout>
